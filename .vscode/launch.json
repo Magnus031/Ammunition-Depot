@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/magnus/Desktop/Ammunition-Depot/Algorithm/DFS&&BFS",
+      "program": "/Users/magnus/Desktop/Ammunition-Depot/Algorithm/DFS&&BFS/build/Debug/outDebug"
+    }
+  ]
+}

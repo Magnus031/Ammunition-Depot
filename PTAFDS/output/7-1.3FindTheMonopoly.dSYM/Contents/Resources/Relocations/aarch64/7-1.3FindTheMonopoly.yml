@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/magnus/Desktop/Ammunition-Depot/PTAFDS/output/7-1.3FindTheMonopoly'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x168 }
+  - { offsetInCU: 0x95, offset: 0x95, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x168 }
+  - { offsetInCU: 0x13B, offset: 0x13B, size: 0x8, addend: 0x0, symName: _CreatHeap, symObjAddr: 0x168, symBinAddr: 0x100003C4C, symSize: 0x70 }
+  - { offsetInCU: 0x171, offset: 0x171, size: 0x8, addend: 0x0, symName: _BuildMaxHeap, symObjAddr: 0x1D8, symBinAddr: 0x100003CBC, symSize: 0x120 }
+  - { offsetInCU: 0x1DF, offset: 0x1DF, size: 0x8, addend: 0x0, symName: _DeleteMax, symObjAddr: 0x2F8, symBinAddr: 0x100003DDC, symSize: 0x194 }
+...

@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/magnus/Desktop/Ammunition-Depot/Algorithm/QuickSort/output/QuickSort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AAC, symSize: 0x150 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AAC, symSize: 0x150 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _QuickSort, symObjAddr: 0x150, symBinAddr: 0x100003BFC, symSize: 0x20C }
+  - { offsetInCU: 0x141, offset: 0x141, size: 0x8, addend: 0x0, symName: _Selected, symObjAddr: 0x35C, symBinAddr: 0x100003E08, symSize: 0x130 }
+  - { offsetInCU: 0x193, offset: 0x193, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x48C, symBinAddr: 0x100003F38, symSize: 0x3C }
+...

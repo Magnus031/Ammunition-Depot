@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/magnus/Desktop/Ammunition-Depot/PTAFDS/output/test1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x100003704, symSize: 0x48 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x100003704, symSize: 0x48 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _BuildTree, symObjAddr: 0x48, symBinAddr: 0x10000374C, symSize: 0x1AC }
+  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _createQueueNode, symObjAddr: 0x1F4, symBinAddr: 0x1000038F8, symSize: 0x48 }
+  - { offsetInCU: 0x1C7, offset: 0x1C7, size: 0x8, addend: 0x0, symName: _createQueue, symObjAddr: 0x23C, symBinAddr: 0x100003940, symSize: 0x38 }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x274, symBinAddr: 0x100003978, symSize: 0x8C }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0x300, symBinAddr: 0x100003A04, symSize: 0x158 }
+  - { offsetInCU: 0x2B9, offset: 0x2B9, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x458, symBinAddr: 0x100003B5C, symSize: 0x24 }
+  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _zigzagLevelOrder, symObjAddr: 0x47C, symBinAddr: 0x100003B80, symSize: 0x234 }
+  - { offsetInCU: 0x375, offset: 0x375, size: 0x8, addend: 0x0, symName: _PrintTree, symObjAddr: 0x6B0, symBinAddr: 0x100003DB4, symSize: 0x70 }
+  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x720, symBinAddr: 0x100003E24, symSize: 0x140 }
+...

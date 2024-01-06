@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/magnus/Desktop/Ammunition-Depot/PTAFDS/output/7-1.5Swap0'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003834, symSize: 0x2DC }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003834, symSize: 0x2DC }
+  - { offsetInCU: 0x10F, offset: 0x10F, size: 0x8, addend: 0x0, symName: _QuickSort, symObjAddr: 0x2DC, symBinAddr: 0x100003B10, symSize: 0x21C }
+  - { offsetInCU: 0x195, offset: 0x195, size: 0x8, addend: 0x0, symName: _getindex, symObjAddr: 0x4F8, symBinAddr: 0x100003D2C, symSize: 0x84 }
+  - { offsetInCU: 0x1F5, offset: 0x1F5, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0x57C, symBinAddr: 0x100003DB0, symSize: 0x3C }
+  - { offsetInCU: 0x235, offset: 0x235, size: 0x8, addend: 0x0, symName: _Selected, symObjAddr: 0x5B8, symBinAddr: 0x100003DEC, symSize: 0x184 }
+...

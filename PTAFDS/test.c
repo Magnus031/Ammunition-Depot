@@ -60,7 +60,8 @@ struct QueueNode* createQueueNode(struct TNode* tnode) {
 // Function to create an empty queue
 struct Queue* createQueue() {
     struct Queue* queue = (struct Queue*)malloc(sizeof(struct Queue));
-    queue->front = queue->rear = NULL;
+    queue->front =NULL;
+    queue->rear = NULL;
     return queue;
 }
 
@@ -132,10 +133,16 @@ void zigzagLevelOrder(tree root) {
                 printf(" %d", temp->data);
             }
             // Enqueue the child nodes of the current node into the next level queue
-                if (temp->left)
+            if(leftToRight)
+                {if (temp->left)
                     enqueue(nextLevel, temp->left);
                 if (temp->right)
+                    enqueue(nextLevel, temp->right);}
+            else
+                {if (temp->right)
                     enqueue(nextLevel, temp->right);
+                if (temp->left)
+                    enqueue(nextLevel, temp->left);} 
         }
         // Move to the next level when the current level is empty
         if (isEmpty(currentLevel)) {
@@ -168,8 +175,6 @@ int main() {
     for(int i=0;i<N;i++)
         scanf("%d",&post[i]);
     Tree T=BuildTree(in,post,N);
-    PrintTree(T);
-    printf("\n");
     zigzagLevelOrder(T);
     return 0;
 }

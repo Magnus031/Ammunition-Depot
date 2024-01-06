@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/magnus/Desktop/Ammunition-Depot/Algorithm/DFS&&BFS",
-      "program": "/Users/magnus/Desktop/Ammunition-Depot/Algorithm/DFS&&BFS/build/Debug/outDebug"
+      "cwd": "/Users/magnus/Desktop/Ammunition-Depot/PTAFDS",
+      "program": "/Users/magnus/Desktop/Ammunition-Depot/PTAFDS/build/Debug/outDebug"
     }
   ]
 }

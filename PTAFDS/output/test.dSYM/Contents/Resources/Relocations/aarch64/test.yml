@@ -2,15 +2,15 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/magnus/Desktop/Ammunition-Depot/PTAFDS/output/test'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x1000036B4, symSize: 0x48 }
-  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x1000036B4, symSize: 0x48 }
-  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _BuildTree, symObjAddr: 0x48, symBinAddr: 0x1000036FC, symSize: 0x1AC }
-  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _createQueueNode, symObjAddr: 0x1F4, symBinAddr: 0x1000038A8, symSize: 0x48 }
-  - { offsetInCU: 0x1C7, offset: 0x1C7, size: 0x8, addend: 0x0, symName: _createQueue, symObjAddr: 0x23C, symBinAddr: 0x1000038F0, symSize: 0x38 }
-  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x274, symBinAddr: 0x100003928, symSize: 0x8C }
-  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0x300, symBinAddr: 0x1000039B4, symSize: 0x158 }
-  - { offsetInCU: 0x2B9, offset: 0x2B9, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x458, symBinAddr: 0x100003B0C, symSize: 0x50 }
-  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _zigzagLevelOrder, symObjAddr: 0x4A8, symBinAddr: 0x100003B5C, symSize: 0x240 }
-  - { offsetInCU: 0x375, offset: 0x375, size: 0x8, addend: 0x0, symName: _PrintTree, symObjAddr: 0x6E8, symBinAddr: 0x100003D9C, symSize: 0x70 }
-  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x758, symBinAddr: 0x100003E0C, symSize: 0x154 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x1000036D8, symSize: 0x48 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _NewNode, symObjAddr: 0x0, symBinAddr: 0x1000036D8, symSize: 0x48 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _BuildTree, symObjAddr: 0x48, symBinAddr: 0x100003720, symSize: 0x1AC }
+  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _createQueueNode, symObjAddr: 0x1F4, symBinAddr: 0x1000038CC, symSize: 0x48 }
+  - { offsetInCU: 0x1C7, offset: 0x1C7, size: 0x8, addend: 0x0, symName: _createQueue, symObjAddr: 0x23C, symBinAddr: 0x100003914, symSize: 0x38 }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x274, symBinAddr: 0x10000394C, symSize: 0x8C }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0x300, symBinAddr: 0x1000039D8, symSize: 0x158 }
+  - { offsetInCU: 0x2B9, offset: 0x2B9, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x458, symBinAddr: 0x100003B30, symSize: 0x50 }
+  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _zigzagLevelOrder, symObjAddr: 0x4A8, symBinAddr: 0x100003B80, symSize: 0x234 }
+  - { offsetInCU: 0x375, offset: 0x375, size: 0x8, addend: 0x0, symName: _PrintTree, symObjAddr: 0x6DC, symBinAddr: 0x100003DB4, symSize: 0x70 }
+  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x74C, symBinAddr: 0x100003E24, symSize: 0x140 }
 ...
